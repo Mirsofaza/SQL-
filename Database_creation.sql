@@ -594,7 +594,9 @@ select * from CreditCard
 
 ---------------------------------------------------------------------------------------------------------------
 
-CREATE TABLE Retailer (
+
+
+CREATE TABLE Retailer (
     retailerID  INT PRIMARY KEY IDENTITY(1,1),
     retailerName VARCHAR(100),
 	addressID INT,
